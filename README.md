@@ -1,5 +1,5 @@
 # 멍피디아
-![accord-removebg](https://github.com/user-attachments/assets/5bad7e90-fcfe-4ff5-a50d-75255a71a47d)
+![Image](https://github.com/user-attachments/assets/2daed15c-dbd8-48ce-b32a-95f73d1c425f)
 
 ### 강아지 커뮤니티 사이트
 
