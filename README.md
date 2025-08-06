@@ -48,3 +48,11 @@
   <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white">
   <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white">
 </div>
+
+# 도메인 및 API 명세
+# 프로젝트 개발 일정
+# 아키텍쳐
+<img width="1013" height="639" alt="Image" src="https://github.com/user-attachments/assets/3a5d6792-f817-46b8-8c71-00940e90ab6f" />
+
+# ERD
+<img width="1798" height="926" alt="Image" src="https://github.com/user-attachments/assets/63a5ae6d-62fd-4d2e-a43b-d2cd71951e3b" />
