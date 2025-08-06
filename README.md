@@ -50,6 +50,99 @@
 </div>
 
 # 도메인 및 API 명세
+
+## 백과 API
+| Method     | Endpoint              | Description                     |
+| ---------- | --------------------- | ------------------------------- |
+| **POST**   | `/api/pedia`          | 백과 게시글 작성                       |
+| **GET**    | `/api/pedia/{postId}` | 특정 백과 게시글 조회                    |
+| **PUT**    | `/api/pedia/{postId}` | 백과 게시글 수정  |
+| **DELETE** | `/api/pedia/{postId}` | 백과 게시글 삭제                       |
+| **GET** | `/api/pedia/top12`      | 인기 백과 게시글 TOP 12 조회 |
+| **GET** | `/api/pedia/all/{page}` | 전체 백과 게시글 페이지네이션 조회 |
+| **POST**   | `/api/pedia/editRequest`                    | 백과 수정 요청 등록          |
+| **GET**    | `/api/pedia/editRequest/all/{page}`         | 전체 수정 요청 목록 조회 |
+| **GET**    | `/api/pedia/editRequest/{id}`               | 특정 수정 요청 상세 조회       |
+| **POST**   | `/api/pedia/editRequest/accept`             | 수정 요청 수락 및 반영        |
+| **DELETE** | `/api/pedia/editRequest/accept/{requestId}` | 수정 요청 거절         |
+
+## 게시판 API
+| Method     | Endpoint              | Description                  |
+| ---------- | --------------------- | ---------------------------- |
+| **POST**   | `/api/board`          | 게시글 작성                       |
+| **GET**    | `/api/board/{postId}` | 특정 게시글 조회                    |
+| **PUT**    | `/api/board/{postId}` | 게시글 수정 |
+| **DELETE** | `/api/board/{postId}` | 게시글 삭제                       |
+| **GET** | `/api/board/top2`       | 인기 게시글 TOP 2 조회 |
+| **GET** | `/api/board/all/{page}` | 전체 게시글 페이지 조회   |
+| **POST** | `/api/board/like/{postId}` | 게시글 좋아요/취소 토글 처리 |
+
+## 마이페이지 API
+| Method  | Endpoint                      | Description            |
+| ------- | ----------------------------- | ---------------------- |
+| **GET** | `/api/myPage/all/post/{page}` | 내가 작성한 게시글 전체 조회  |
+| **GET** | `/api/myPage/all/likedPost/{page}` | 내가 좋아요한 게시글 전체 조회  |
+
+## 로고 API
+| Method  | Endpoint    | Description                                   |
+| ------- | ----------- | --------------------------------------------- |
+| **GET** | `/api/logo` | 현재 저장된 로고 이미지 조회                              |
+| **PUT** | `/api/logo` | 로고 이미지 생성 또는 수정) |
+
+
+## 이벤트 API
+| Method     | Endpoint              | Description                      |
+| ---------- | --------------------- | -------------------------------- |
+| **POST**   | `/api/event`          | 이벤트 게시글 작성               |
+| **PUT**    | `/api/event/{postId}` | 이벤트 게시글 수정  |
+| **DELETE** | `/api/event/{postId}` | 이벤트 게시글 삭제                       |
+| **GET**    | `/api/event/{postId}` | 특정 이벤트 게시글 조회                    |
+| **GET** | `/api/event/allEvent` | 전체 이벤트 게시글 조회 |
+
+
+## 검색 API
+| Method  | Endpoint           | Description                 |
+| ------- | ------------------ | --------------------------- |
+| **GET** | `/api/search/both` | 게시판 + 백과 통합 검색 (keyword 기반) |
+
+## 댓글 API
+| Method     | Endpoint                   | Description      |
+| ---------- | -------------------------- | ---------------- |
+| **GET**    | `/api/comment/{postId}`    | 특정 게시글의 모든 댓글 조회 |
+| **POST**   | `/api/comment`             | 댓글 작성            |
+| **PUT**    | `/api/comment/{commentId}` | 특정 댓글 내용 수정      |
+| **DELETE** | `/api/comment/{commentId}` | 특정 댓글 삭제         |
+
+## 채팅 API
+| Method   | Endpoint                  | Description            |
+| -------- | ------------------------- | ---------------------- |
+| **GET**  | `/api/chat`               | 현재 로그인 유저의 전체 메시지 조회   |
+| **GET**  | `/api/chat/with/{userId}` | 특정 유저와 관리자 간 채팅 메시지 조회 |
+| **POST** | `/api/chat/send`          | 채팅 메시지 전송              |
+| **GET**  | `/api/chat/list`          | 현재 로그인 유저의 채팅방 목록 조회   |
+
+## 회원 API
+| Method  | Endpoint      | Description      |
+| ------- | ------------- | ---------------- |
+| **GET** | `/api/member` | 현재 로그인한 회원 정보 조회 |
+
+## ADMIN API
+| Method     | Endpoint                                    | Description          |
+| ---------- | ------------------------------------------- | -------------------- |
+| **GET**    | `/api/pedia/editRequest/all/{page}`         | 전체 수정 요청 목록 조회  |
+| **GET**    | `/api/pedia/editRequest/{id}`               | 특정 수정 요청 상세 조회       |
+| **POST**   | `/api/pedia/editRequest/accept`             | 수정 요청 수락 및 반영        |
+| **DELETE** | `/api/pedia/editRequest/accept/{requestId}` | 수정 요청 거절         |
+| **POST**   | `/api/event`          | 이벤트 게시글 작성  |
+| **PUT**    | `/api/event/{postId}` | 이벤트 게시글 수정          |
+| **DELETE** | `/api/event/{postId}` | 이벤트 게시글 삭제          |
+| **PUT** | `/api/logo` | 로고 이미지 생성 또는 수정 |
+| **GET** | `/api/chat/with/{userId}` | 특정 유저와 관리자 간 채팅 메시지 조회 |
+| **GET** | `/api/chat/list`          | 관리자용 전체 채팅방 목록 조회      |
+
+
+
+
 # 프로젝트 개발 일정
 # 아키텍쳐
 <img width="1013" height="639" alt="Image" src="https://github.com/user-attachments/assets/3a5d6792-f817-46b8-8c71-00940e90ab6f" />
