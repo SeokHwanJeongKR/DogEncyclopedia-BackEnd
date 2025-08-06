@@ -10,41 +10,31 @@
 4. [아키텍쳐](#아키텍쳐)
 5. [ERD](#ERD)
 
-# 사용 기술 스택
+# 사용 기술 스택(백엔드)
 <div style="display: flex; flex-wrap: wrap; gap: 10px;">
   <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=Java&logoColor=white">
   <img src="https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=Spring&logoColor=white">
   <img src="https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=JSON%20web%20tokens&logoColor=white">
   <img alt="Static Badge" src="https://img.shields.io/badge/JPA-brightgreen?style=for-the-badge&logo=JPA">
-  <img alt="Static Badge" src="https://img.shields.io/badge/WebSocket-brightgreen?style=for-the-badge&logo=WebSocket&logoColor=white&color=blue">
-  <img alt="Static Badge" src="https://img.shields.io/badge/Elastic%20Search-brightgreen?style=for-the-badge&logo=Elastic%20Search&logoColor=white&color=orange">
-  <img alt="Static Badge" src="https://img.shields.io/badge/Oauth%202-brightgreen?style=for-the-badge&logo=Oauth%202&logoColor=white&color=red">
+</div>
 
-
-  
-  <img src="https://img.shields.io/badge/MariaDB-003545?style=for-the-badge&logo=MariaDB&logoColor=white">
-  <img src="https://img.shields.io/badge/AWS%20S3-569A31?style=for-the-badge&logo=Amazon%20S3&logoColor=white">
-
-
+# 사용 기술 스택(프론트)
+<div style="display: flex; flex-wrap: wrap; gap: 10px;">
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=JavaScript&logoColor=black">
   <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white">
   <img src="https://img.shields.io/badge/Axios-5A29E4?style=for-the-badge&logo=axios&logoColor=white">
   <img alt="Static Badge" src="https://img.shields.io/badge/Next.js-brightgreen?style=for-the-badge&logo=Next.js&logoColor=white">
-  <img alt="Static Badge" src="https://img.shields.io/badge/Kakao%20Maps%20APi-brightgreen?style=for-the-badge&logo=Kakao%20Maps%20API&logoColor=white&color=yellow">
-  <img alt="Static Badge" src="https://img.shields.io/badge/Stomp.js-brightgreen?style=for-the-badge&logo=Stomp.js&logoColor=white&color=red">
-  <img alt="Static Badge" src="https://img.shields.io/badge/Embla%20Carousel-brightgreen?style=for-the-badge&logo=Embla%20Carousel&logoColor=white&color=orange">
-  <img alt="Static Badge" src="https://img.shields.io/badge/ReactPaginate-brightgreen?style=for-the-badge&logo=ReactPaginate&logoColor=white">
-
-  
-
-  
+</div>
+# 사용 기술 스택(DB 및 이미지 처리)
+<div style="display: flex; flex-wrap: wrap; gap: 10px;">
+  <img src="https://img.shields.io/badge/MariaDB-003545?style=for-the-badge&logo=MariaDB&logoColor=white">
+  <img src="https://img.shields.io/badge/AWS%20S3-569A31?style=for-the-badge&logo=Amazon%20S3&logoColor=white">
+</div>
+# 사용 기술 스택(배포 등)
+<div style="display: flex; flex-wrap: wrap; gap: 10px;">
   <img alt="Static Badge" src="https://img.shields.io/badge/AWS%20EC2-brightgreen?style=for-the-badge&logo=AWS%20EC2&logoColor=white&color=orange">
   <img src="https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white">
   <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white">
   <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white">
   <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white">
-
-
-
-
 </div>
