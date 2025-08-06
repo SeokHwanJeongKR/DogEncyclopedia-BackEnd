@@ -3,14 +3,14 @@
 
 ### 강아지 커뮤니티 사이트
 
-# 목차
-1. [사용 기술 스택](#사용-기술-스택)
-2. [도메인 및 API 명세](#도메인-및-API-명세)
-3. [프로젝트 개발 일정](#프로젝트-개발-일정)
-4. [아키텍쳐](#아키텍쳐)
-5. [ERD](#ERD)
+## 목차
+1. [사용 기술 스택](##사용-기술-스택)
+2. [도메인 및 API 명세](##도메인-및-API-명세)
+3. [프로젝트 개발 일정](##프로젝트-개발-일정)
+4. [아키텍쳐](##아키텍쳐)
+5. [ERD](##ERD)
 
-# 사용 기술 스택
+## 사용 기술 스택
 <div style="display: flex; flex-wrap: wrap; gap: 10px;">
   <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=Java&logoColor=white">
   <img src="https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=Spring&logoColor=white">
@@ -49,9 +49,9 @@
   <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white">
 </div>
 
-# 도메인 및 API 명세
-# 프로젝트 개발 일정
-# 아키텍쳐
+## 도메인 및 API 명세
+## 프로젝트 개발 일정
+## 아키텍쳐
 <img width="1013" height="639" alt="Image" src="https://github.com/user-attachments/assets/3a5d6792-f817-46b8-8c71-00940e90ab6f" />
 
 # ERD
